@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tutoriel HTML & CSS</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header class="Menu">
+        <h1> TUTORIEL HTML & CSS !</h1>
+        <a href="PagePrincipale.html"><img src="Images/myhome.png" alt="Retour page principale" class="home"></a>
+        <a href="PageHTML.html"><img src="Images/html.png" alt="HTML" class="html"></a>
+        <a href="PageCSS.html"><img src="Images/css.png" alt="CSS" class="css"></a>
+    </header>
+    <div class="Container">
+        <nav class="BarreNav">
+            <section class="list-html">
+                <h1> Le HTML</h1>
+                <ul>
+                    <li>
+                        <a href="PageHTML.html#HTML1">Présentation HTML</a>
+                    </li>
+                    <li>
+                        <a href="PageHTML.html#HTML2">Les Titres</a>
+                    </li>
+                    <li>
+                        <a href="PageHTML.html#HTML3">Les paragraphes et retours à la ligne !</a>
+                    </li>
+                    <li>
+                        <a href="PageHTML.html#HTML4">Les mots en gras</a>
+                    </li>
+                    <li>
+                        <a href="PageHTML.html#HTML5">Les images</a>
+                    </li>
+                    <li>
+                        <a href="PageHTML.html#HTML6">Les listes</a>
+                    </li>
+                </ul>
+            </section>
+            <!--
+<section class="list-css">
+    <h1> Le CSS</h1>
+    <ul>
+        <li>Presentation</li>
+        <li>à remplir</li>
+        <li>à remplir</li>
+        <li>à remplir</li>
+        <li>à remplir</li>
+        <li>à remplir</li>
+        <li>à remplir</li>
+        <li>à remplir</li>
+        <li>à remplir</li>
+        <li>à remplir</li>
+    </ul>
+</section>
+-->
+        </nav>
+        <div class="Contenu">
+            <!-- DEBUT STRUCTURE -->
+
+            <h1 id="HTML1">Comment créer ta premiere page web</h1>
+
+            <!-- VIDEO 1 : SUR LA CREATION DU FICHIER HTML -->
+
+            <p>On va d'abord utiliser ce qu'on appelle le langage HTML</p>
+
+            <!-- PHOTO D'UNE PAGE VIERGE HTML -->
+
+            <img src="Captures/Capture_html.PNG">
+
+            <!-- FIN STRUCTURE -->
+
+            <!-- LES BALISES -->
+
+            <p>Html c'est un code constitué de signes qui te permettent de faire apparaître ton texte sur ta page. </p>
+
+            <p>Ces signes sont appelés des <strong>balises</strong> :</p>
+
+            <ul>
+                <h4>Il y a 2 sortes de balises :</h4>
+
+                <li> la balise ouvrante : exemple : <img src="Captures/Capture%20body.PNG"></li>
+
+                <li>la balise fermante : exemple : <img src="Captures/Capture%20%20finbody.PNG"></li>
+
+            </ul>
+
+            <!--                SUITE-->
+            <p>Servons-nous des balises du tableau pour créer un contenu d’une page web : ce sera celui de Monsieur Patate. </p>
+
+            <h1 id="HTML2">Les Titres</h1>
+            <p> Le titre d’abord :
+                <h2> &lt;h1&gt;
+                Bienvenue sur le site de Mr Patate &lt;/h1&gt;</h2>
+                <br>
+                <h3>
+                
+                
+               &lt;h2&gt; Petite présentation pour savoir à qui tu parles : &lt;/h2&gt; </h3>
+                <h1 id="HTML3"> Les paragraphes et les retour à la ligne!</h1>
+                <p>Le premier paragraphe
+                    <br>
+                    <strong>&lt;p&gt;</strong>Mr Patate c’est mon nom.<strong>&lt;br&gt;</strong>
+                    <br> Je vis à l’île de la Réunion, il fait 28°C et il fait un soleil de feu !.<strong>&lt;br&gt;</strong>
+                    <br> C’est mon premier site, il est en construction.<strong>&lt;br&gt;</strong>
+                    <br> N’hésitez pas à me donner des astuces pour qu’il soit plus fun !<strong>&lt;br&gt;</strong>
+                    <br> Allez-y molo, je suis fragile !<strong> &lt;/p&gt;</strong>
+                </p>
+                <p>Je passe à la ligne avec : <strong>&lt;br&gt;</strong>
+                    <br> et oui sinon on écrirai tout sur une ligne ce serai moche est pas très compréhensible ! </p>
+                <!--                    SUITE-->
+                <h1 id="HTML4">Les mots en gras !</h1> Je mets ce mot en gras <strong>&lt;strong&gt; regardez &lt;/strong&gt;</strong> dans ma phrase :
+                <br>
+                <p><strong>  Regardez ça ! </strong>c ‘est comme ça que j'écris mes mots en gras pour qu"ils soient bien voyants!</p>
+
+                <!--                SUITE-->
+                <h1 id="HTML5"> Les Images!</h1>
+                <p> et j’insère une image pour animer tout ça histoire de vous donner envie :
+                    <br> pour cela, j’ai besoin de :
+                    <br> <strong>la balise image : &lt;img src= “ ”/&gt;</strong>
+                    <br> et <strong>l’adresse de l’image ou son url :</strong>
+                    <br> "http://www.princessh.com/oldblogimage/marche-pas.jpg"
+                    <br> ou "Images/MonsieurPatate.jpg"
+                    <br> Ce qui donne
+                    <br>
+                    <strong>&lt;img src="Images/MonsieurPatate.jpg" /&gt;</strong>
+                    <br> voilà le résultat :
+                    <br>
+                    <img src="Images/MonsieurPatate.jpg" /> </p>
+
+                <!--                    SUITE-->
+                <h1 id="HTML6"> Les listes !</h1>
+                <p> Maintenant on va apprendre a créer des listes (comme les listes de courses)</p>
+                On va utiliser 2 balises :
+                <br> <strong>La balise &lt;ul&gt;</strong>
+                <br> et <strong>la balise &lt;li&gt;</strong> pour faire une liste à puce.
+                <br> Exemple:
+                <br>
+                <img src="Captures/html_ol.PNG" alt=" écrire une liste">
+                <p>Et on verra s'afficher une liste comme ça :</p>
+                <br>
+                <ul>
+                    <li>Aller à la plage</li>
+                    <li>Téléphoner à David</li>
+                    <li>Inviter Alex samedi</li>
+                </ul>
+
+                <h3>Vous savez maintenantce qu'il faut en HTML pour crée la base de votre première page web! <br> Passont maintenant au CSS pour rendre votre page plus jolie !</h3>
+
+
+
+
+        </div>
+    </div>
+    <footer class="fromage"></footer>
+
+    <!--    ICI ON NE TOUCHE PAS C'EST MON JAVASCRIPT-->
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="Velocity/velocity.min.js"></script>
+    <script src="Velocity/velocity.ui.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tutoriel HTML & CSS</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header class="Menu">
+        <h1> TUTORIEL HTML & CSS !</h1>
+        <a href="PagePrincipale.html"><img src="Images/myhome.png" alt="Retour page principale" class="home"></a>
+        <a href="PageHTML.html"><img src="Images/html.png" alt="HTML" class="html"></a>
+        <a href="PageCSS.html"><img src="Images/css.png" alt="CSS" class="css"></a>
+    </header>
+    <div class="Container">
+        <nav class="BarreNav">
+            <!--
+<section class="list-html">
+    <h1> Le HTML</h1>
+    <ul>
+        <li>Presentation du HTML</li>
+        <li>Comment commencer son code HTML</li>
+        <li>Les Balises</li>
+        <li>Les div</li>
+        <li>Les titres (h1,h2...)</li>
+        <li></li>
+        <li>Les paragraphs</li>
+        <li>Les listes</li>
+        <li>Les images</li>
+        <li>Les liens</li>
+    </ul>
+</section>
+-->
+            <section class="list-css">
+                <h1> Le CSS</h1>
+                <ul>
+                    <li><a href="PageCSS.html#CSS1">Presentation du CSS</a></li>
+                    <li><a href="PageCSS.html#CSS2">Creation page CSS</a></li>
+                    <li><a href="PageCSS.html#CSS3">Methode css</a></li>
+                    <li><a href="PageCSS.html#CSS4">Les attribut speciaux class et id</a></li>
+
+                </ul>
+            </section>
+        </nav>
+        <div class="Contenu">
+
+            <h1 id="CSS1">Présentation du CSS</h1>
+            <p>La page CSS permet de faire la mise en forme de la page web. Il faut d’abord créer une page css. Plusieurs étapes</p>
+            <h1 id="CSS2">CREATION PAGE CSS</h1>
+            <br>
+            <p>Lier la page html à la page css en plaçant le code suivant entre la balise <strong>&lt;head&gt;</strong> et <strong>&lt;/head&gt;</strong> de votre page html :</p> <img src="Captures/lien_CSS.PNG" alt="Lien CSS">
+            <!--            Placer la capture du lien css-->
+            <p>Voici comment devrait se présenter vos pages html et css:
+            </p><img src="Captures/presentation_CSS.PNG" alt="Lien CSS">
+            <!--            Placer la capture de la présentation css-->
+            <p>Vous pouvez placez votre css directement dans les balises du fichier HTML via un attribut style mais cette méthode n’est pas recommandé
+                <br> Tout votre mise en forme est à mettre dans le fichier comportant l’extension .css</p>
+            <br>
+            <h1 id="CSS3">METHODE CSS </h1>
+            <p>Comment faire ?
+                <br>- Ecrire le nom de la balise (par exemple h1)
+                <br>- Ouvrir des accolades {} pour, à l'intérieur, mettre les propriétés et valeurs que l'on souhaite.
+                <br>- Une propriété correspond par exemple à : la couleur, la taille du texte, la largeur, la hauteur d’un paragraphe.
+                <br>- Mettre autant de propriétés que l'on veut à l'intérieur des accolades.
+                <br>- Chaque propriété est suivie du symbole « deux-points » : puis de la valeur correspondante.
+                <br>- Chaque ligne se termine par un point-virgule ;</p>
+            <img src="Captures/h1_CSS.PNG" alt="H1">
+            <br>
+            <!--            Placer la capture h1 LES COMMENTAIRES -->
+            <p>Vos commentaires peuvent être écrits sur une ou plusieurs lignes. Par exemple :</p>
+            <br>
+            <img src="Captures/lescommentairesmodifies.png" alt="">
+            <br>
+            <!--            Placer la capture commentaire css -->
+            <h1 id="CSS4">LES ATTRIBUTS SPECIAUX CLASS ET ID</h1>
+            <p> Class et id peuvent être placés sur toutes les balises (titre, image….) Voyez plutôt :</p>
+            <br>
+            <img src="Captures/classparagraphe,css.PNG" alt="class paragraph">
+            <br>
+            <!--            Placer la capture de l’attribut class -->
+            <img src="Captures/les%20class.PNG" alt="">
+            <br>
+            <!--            Placer la capture class-->
+            <p>
+                Et pour changer la mise en forme du paragraphe situé après un h3
+                <br>
+                <img src="Captures/h3_p.PNG" alt="h3 P">
+                <br>
+                <!--                Placer la capture h3 p -->
+                Voilà l’essentiel pour un début : <strong>à vous de jouer !</strong></p>
+
+
+        </div>
+    </div>
+    <footer class="fromage"></footer>
+
+    <!--    ICI ON NE TOUCHE PAS C'EST MON JAVASCRIPT-->
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="Velocity/velocity.min.js"></script>
+    <script src="Velocity/velocity.ui.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+body {
+    display: block;
+    max-width: 1080px;
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    margin: auto;
+}
+
+.Menu {
+    height: 250px;
+    line-height: 50px;
+    width: 100%;
+    background: -webkit-repeating-linear-gradient(bottom right, deeppink, crimson 5%);
+    background: repeating-linear-gradient(bottom right, deeppink, crimson 5%);
+    background-color: deeppink;
+    /*    background: repeating-linear-gradient(bottom left, deeppink, royalblue 5%);*/
+    color: floralwhite;
+    /*    text-align: center;*/
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    /*    position: fixed;*/
+    z-index: 1;
+}
+
+.Menu h1 {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+.home {
+    height: 100px;
+    width: 100px;
+    line-height: 150px;
+    margin-top: 95px;
+    margin-left: 85px;
+    margin-right: 175px;
+    border-radius: 15px;
+    border-style: dashed;
+    border-color: floralwhite;
+    border-width: 5px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.html {
+    height: 100px;
+    width: 100px;
+    margin-right: 175px;
+    border-radius: 15px;
+    border-style: dashed;
+    border-color: floralwhite;
+    border-width: 5px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: inherit;
+}
+
+.html2 {
+    border-color: floralwhite;
+    background-color: red;
+}
+
+.html:hover,
+.home:hover,
+.css:hover {
+    background: -webkit-linear-gradient(top left, darkred, black);
+    background: -webkit-linear-gradient(top left, black, darkred);
+    background: linear-gradient(top left, black, darkred);
+    background-color: crimson;
+}
+
+.css {
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    border-style: dashed;
+    border-color: floralwhite;
+    border-width: 5px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.Container {
+    background-color: floralwhite;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.BarreNav {
+    color: floralwhite;
+    margin: 0;
+    width: 20%;
+    min-height: 700px;
+    height: 100%;
+    background-color: hotpink;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    /*    position: fixed;*/
+    /*    margin-top: 250px;*/
+    /*    margin-left: 9px*/
+}
+
+.BarreNav ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.BarreNav h1 {
+    border-bottom: 3px dashed;
+    border-top: 3px dashed;
+    letter-spacing: 10px;
+}
+
+.BarreNav ul li a {
+    text-decoration: none;
+    color: floralwhite;
+}
+
+.BarreNav ul li a:hover {
+    color: crimson;
+    background-color: floralwhite;
+    font-weight: bold;
+}
+
+.Contenu {
+    margin: 0;
+    background-color: floralwhite;
+    width: 80%;
+    min-height: 700px;
+    height: auto;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    border: 2px solid crimson;
+}
+
+.Contenu h1,
+.Contenu h2,
+.Contenu h3,
+.Contenu img,
+.Contenu p {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.Contenu h1 {
+    text-decoration: underline;
+}
